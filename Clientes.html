@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+
+    <style>
+        /* Estilo do menu */
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #34abf0;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #34abf0;
+            color: white;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #area-principal {
+            margin-top: 60px; /* Ajuste para navbar fixa */
+        }
+
+        /* Container centralizado */
+        .login-container {
+            margin-top: 100px; /* espaço abaixo da navbar */
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            width: 320px;
+            text-align: center;
+        }
+
+        .login-container h1 {
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 22px;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #34abf0;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 12px;
+        }
+
+        .login-container button:hover {
+            background-color: #2499d6;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="Clientes.html">Clientes</a>
+        <a href="Pedidos.html">Pedidos</a>
+    </div>
+
+    <div class="login-container">
+        <h1>Adicionar cliente</h1>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="Email">
+        <button>Enviar</button>
+    </div>
+</body>
+</html>
